@@ -1,0 +1,112 @@
+/*
+*******************************************
+***                COLORS               ***
+*******************************************
+*/
+:root {
+--indigo-dye:#0D3B66;
+--lemon-maringue: #FAF0CA;
+--naramari-crayola: #F4D35E;
+--sandy-brown: #EE964B;
+--orange-soda: #F95738;
+}
+/*
+*******************************************
+***               HEADER                ***
+*******************************************
+*/
+.header-area .main-menu,
+.header-area, .main-menu .dropdown-menu {
+    background: var(--indigo-dye);
+    box-shadow: 0px 3px 16px 0px rgba(0, 0, 0, 0.2);
+}
+.header-area .main-menu .navbar {
+    height: 70px;
+}
+.header-area .main-menu .navbar .nav-link {
+    font-size: 14px;
+    color: var(--naramari-crayola);
+    padding: 8px;
+}
+.header-area .main-menu .navbar .nav-link:hover{
+    font-style: bold;
+    font-weight: 600;
+}
+/*
+*******************************************
+***          MAIN-INFO SECTION          ***
+*******************************************
+*/
+.main-info {
+    position: relative;
+    z-index: 1;
+    padding-bottom: 42px;
+    margin-bottom: 50px;
+    background: linear-gradient(to bottom, var(--naramari-crayola), white);
+}
+.main-info .container {
+    border-radius: 12px;
+    position: relative;
+    bottom: -100px;
+    background: var(--lemon-maringue);
+    padding-top: 28px;
+    padding-bottom: 28px;
+    box-shadow: 0px 20px 80px 0px rgba(153,153,153,0.7);
+}
+.main-info .container .img-col .img-container > img{
+    width: 90%;
+    height: 80%;
+}
+.main-info .container .txt-col .text-container {
+    margin: 20px auto 0 auto;
+    width: 90%;
+}
+.main-info .container .txt-col .text-container h4 {
+    font-size: 16px;
+}
+.main-info .container .txt-col .text-container p {
+    font-size: 16px;
+    color: var(--indigo-dye);
+    margin-bottom: 20px;
+}
+.main-info .container .txt-col .text-container ul.basic-info {
+    padding-left: 0px;
+}
+.main-info .container .txt-col .text-container ul.basic-info >li {
+    margin-bottom: 8px;
+}
+.main-info .container .txt-col .text-container ul.basic-info >li >i {
+    margin-right: 4px;
+    color: var(--naramari-crayola);
+}
+.main-info .container .txt-col .text-container ul.social-nw {
+    margin-top: 20px;
+    padding: 0;
+}
+.main-info .container .txt-col .text-container ul.social-nw > li {
+    margin-right: 20px;
+}
+.main-info .container .txt-col .text-container ul.social-nw > li i {
+    font-size: 40px;
+    color: var(--indigo-dye);
+}
+/*
+*******************************************
+***            SKILLS SECTION           ***
+*******************************************
+*/
+.skill-item {
+    margin-bottom: 24px
+}
+.skill-item .text {
+    margin-bottom: 8px;
+}
+.skill-item .progress .progress-bar {
+    height: 10px;
+    border-radius: 5px;
+    vertical-align: middle;
+    align-self: center;
+}
+.sect-skills .container .head-content {
+    padding-top: 70px;
+}
