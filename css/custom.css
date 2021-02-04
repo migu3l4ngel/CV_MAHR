@@ -47,7 +47,6 @@ body {
     padding-bottom: 42px;
     margin-bottom: 50px;
     background: linear-gradient(to bottom, var(--naramari-crayola), white);
-    box-shadow: rgba(153,153,153,0.7);
 }
 .main-info .container {
     border-radius: 12px;
