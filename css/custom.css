@@ -91,7 +91,7 @@ body {
     margin-right: 20px;
 }
 .main-info .container .txt-col .text-container ul.social-nw > li i {
-    font-size: 40px;
+    size: 40px;
     color: var(--indigo-dye);
 }
 /*
@@ -118,8 +118,7 @@ body {
     font-weight: bolder;
     text-shadow: -7px 2px 2px rgba(0, 0, 0, 0.2);
 }
-.sect-skills .container .head-content .sect-title, 
-.sect-skills .container .row .skills-col .sect-subtitle{
+h4 {
     font-family: Georgia, "Times New Roman", Times, serif;
     color: #345ba5;
 }
