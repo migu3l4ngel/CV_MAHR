@@ -122,3 +122,8 @@ h4 {
     font-family: Georgia, "Times New Roman", Times, serif;
     color: #345ba5;
 }
+.text-container .sect-title {
+    color: var(--indigo-dye);
+    font-weight: bolder;
+    font-family: Georgia, "Times New Roman", Times, serif;
+}
