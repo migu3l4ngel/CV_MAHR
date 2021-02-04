@@ -118,7 +118,7 @@ body {
     font-weight: bolder;
     text-shadow: -7px 2px 2px rgba(0, 0, 0, 0.2);
 }
-h4 {
+h4, h3 {
     font-family: Georgia, "Times New Roman", Times, serif;
     color: #345ba5;
 }
@@ -126,4 +126,21 @@ h4 {
     color: var(--indigo-dye);
     font-weight: bolder;
     font-family: Georgia, "Times New Roman", Times, serif;
+}
+/*
+*******************************************
+***         PORTFOLIO SECTION           ***
+*******************************************
+*/
+.card-container {
+    max-width: 360px;
+    margin-top: 16px;
+}
+.card-container .card i {
+    color: var(--naramari-crayola);
+}
+.card-container .card h5 {
+    margin-top: 12px;
+    margin-bottom: 8px;
+    opacity: 0.8;
 }
