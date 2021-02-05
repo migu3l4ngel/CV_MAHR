@@ -153,6 +153,7 @@ h4, h3 {
     margin-top: 12px;
     margin-bottom: 8px;
     opacity: 0.8;
+    font-family: Georgia;
 }
 .btn:hover {
     color: var(--naramari-crayola);
