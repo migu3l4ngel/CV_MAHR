@@ -34,7 +34,7 @@ body {
 }
 .header-area .main-menu .navbar .nav-link:hover{
     font-style: bold;
-    font-weight: 600;
+    
     border-bottom: 2px solid var(--naramari-crayola);
 }
 .header-area .main-menu .navbar > i {
