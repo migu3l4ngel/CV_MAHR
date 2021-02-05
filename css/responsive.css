@@ -7,6 +7,10 @@
     .header-area .main-menu .navbar .nav-link
     {
     padding: .5em 1rem;
+    margin-bottom: 10px;
+    }
+    .header-area .main-menu {
+        width: 100%;
     }
     .card-container .card {
         max-width: 240px;
