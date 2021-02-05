@@ -3,7 +3,7 @@
 *** SMALL(landspace phones, 576px and up) ***
 *********************************************
 */
-@media (max-width: 576px) {
+@media (max-width: 575px) {
     .header-area .main-menu .navbar .nav-link:hover {
         border-bottom: none;
     }
