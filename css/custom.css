@@ -141,6 +141,7 @@ h4, h3 {
 */
 .sect-porfolio .container .head-content .sect-title {
     padding-top: 30px;
+    margin-left: 40px;
     margin-bottom: 20px;
     color: var(--indigo-dye);
     font-weight: bolder;

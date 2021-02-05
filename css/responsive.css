@@ -8,7 +8,8 @@
         border-bottom: none;
     }
     .sect-porfolio .container .head-content .sect-title {
-        padding-top: 100px;
+        padding-top: 70px;
+        margin: 40px;
     }
 }
 @media (min-width: 576px) {
