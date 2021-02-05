@@ -25,7 +25,7 @@
                         <li class="nav-item submenu dropdown">
                             <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Proyectos</a>
                             <ul class="dropdown-menu">
-                                <li class="nav-item"><a href="#portfolio" class="nav-link">Portafolio</a></li>
+                                <li class="nav-item"><a href="#portfolio-content" data-toggle="collapse" role="button" aria-expanded="false" aria-controls="portfolio-content" class="nav-link">Destacados</a></li>
                                 <li class="nav-item"><a href="https://github.com/migu3l4ngel" target="_blank" class="nav-link">GitHub</a></li>
                             </ul>
                         </li>
@@ -68,9 +68,13 @@
     <section class="sect-skills" id="skills">
         <div class="container">
             <div class="head-content d-flex align-items-baseline">
+                <button class="btn" type="button" data-toggle="collapse" data-target="#skills-content"
+                area-expanded="false" aria-controls="skills-content">
+                <i class="fas fa-sort-down fa-2x"></i>
+                </button>
                 <h3 class="sect-title">Habilidades</h3>
             </div>
-            <div class="row" id="skills-content">
+            <div class="row collapse" id="skills-content">
                 <div class="skills-col col-12 col-md-6">
                     <h4 class="sect-subtitle">Programming Language & Development Tools</h4>
                     <div class="skill-item">
@@ -183,13 +187,18 @@
         </div>
     </section>
     <!-- ./Skills -->
+    <!-- Portfolio -->
     <section class="sect-porfolio" id="portfolio">
         <div class="container">
             <div class="head-content d-flex align-items-baseline">
-                <h3 class="sect-title">Projects</h3>
+                <button class="btn" type="button" data-toggle="collapse" data-target="#portfolio-content"
+                aria-controls="portfolio-content" aria-expanded="false">
+                    <i class="fas fa-sort-down fa-2x"></i>
+                </button>
+                <h3 class="sect-title">Proyectos</h3>
             </div>
         </div>
-        <div class="container-fluid" id="portfolio-content">
+        <div class="container-fluid collapse" id="portfolio-content">
             <div class="card-container d-flex flex-wrap justify-content-around align-items-center">
                 <div class="card">
                     <div class="card-body">
@@ -230,6 +239,7 @@
             </div>
         </div>
     </section>
+    <!-- ./Portfolio -->
     <!-- JS only -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
