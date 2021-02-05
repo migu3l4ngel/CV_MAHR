@@ -8,6 +8,9 @@
     {
     padding: .5em 1rem;
     }
+    .card-container .card {
+        max-width: 240px;
+    }
 }
 /*
 *************************************
@@ -26,6 +29,9 @@
     .main-info .container {
         bottom: -120px;
     }
+    .card-container .card {
+        max-width: 360px;
+    }
 }
 /*
 *************************************
@@ -33,6 +39,9 @@
 *************************************
 */
 @media (min-width: 992px) {
+    .card-container .card {
+        max-width: 240px;
+    }
 
 }
 /*
@@ -41,5 +50,8 @@
 *************************************************
 */
 @media (min-width: 1200px){
+    .card-container .card {
+        max-width: 360px;
+    }
 
 }
