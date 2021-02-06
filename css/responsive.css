@@ -5,7 +5,7 @@
 */
 @media (max-width: 575px) {
     .header-area .main-menu .navbar .nav-link:hover {
-        
+        display: block;
     }
     .sect-porfolio .container .head-content .sect-title {
         padding-top: 70px;
