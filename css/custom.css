@@ -31,6 +31,7 @@ body {
     font-size: 14px;
     color: var(--naramari-crayola);
     padding: 8px;
+    display: block;
 }
 .header-area .main-menu .navbar .nav-link:hover {
     background-color: #345ba5;

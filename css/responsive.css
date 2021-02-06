@@ -5,7 +5,12 @@
 */
 @media (max-width: 575px) {
     .header-area .main-menu .navbar .nav-link:hover {
-        display: block;
+        border-bottom: none;
+        border-bottom-right-radius: 0;
+        border-top-left-radius: 0;
+        background: none;
+        font-weight: bolder;
+        transition: 0.5s;
     }
     .sect-porfolio .container .head-content .sect-title {
         padding-top: 70px;
