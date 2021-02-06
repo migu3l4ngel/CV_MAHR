@@ -31,11 +31,16 @@ body {
     font-size: 14px;
     color: var(--naramari-crayola);
     padding: 8px;
+    display: block;
 }
-.header-area .main-menu .navbar .nav-link:hover{
+.header-area .main-menu .navbar .nav-link:hover {
+    background-color: #345ba5;
     font-style: bold;
-    font-weight: 600;
-    border-bottom: 2px solid var(--naramari-crayola);
+    transition: 0.4s;
+    border-bottom: 1px solid var(--naramari-crayola);
+    border-bottom-right-radius: 8px;
+    border-top-left-radius: 8px;
+    
 }
 .header-area .main-menu .navbar > i {
     text-align: left;
@@ -164,4 +169,14 @@ h4, h3 {
 }
 .btn:hover {
     color: var(--naramari-crayola);
+}
+/*
+*******************************************
+***          BTN MENU DROPDOWN          ***
+*******************************************
+*/
+.btn-menu {
+    margin-right: 30px;
+    cursor: pointer;
+    display: none;
 }
