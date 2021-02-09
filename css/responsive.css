@@ -17,8 +17,7 @@
         margin: 40px;
     }
     .logotype {
-        font-size: 20px;
-        padding-left: 35px;
+        display: none;
     }
     .navbar {
         height: 65px;
