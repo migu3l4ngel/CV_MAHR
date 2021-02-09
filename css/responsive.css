@@ -6,8 +6,8 @@
 @media (max-width: 952px) {
     .header-area .main-menu .navbar .nav-link:hover {
         border-bottom: none;
-        border-bottom-right-radius: 0;
-        border-top-left-radius: 0;
+        border-bottom-right-radius: 8px;
+        border-top-left-radius: 8px;
         background: none;
         font-weight: bolder;
         transition: 0.5s;
@@ -32,7 +32,7 @@
         background: rgba(0, 0, 0, 0.8);
         top: -100vh;
         text-align: center;
-        transition: all 0.4s;
+        transition: all 0.7s;
         flex-direction: column;
     }
     .nav li {
