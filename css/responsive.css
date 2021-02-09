@@ -29,7 +29,7 @@
         position: fixed;
         width: 100vw;
         height: calc(100% - 65px);
-        background: #414141;
+        background: rgba(0, 0, 0, 0.8);
         top: -100vh;
         text-align: center;
         transition: all 0.4s;
