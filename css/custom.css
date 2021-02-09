@@ -180,3 +180,6 @@ h4, h3 {
     cursor: pointer;
     display: none;
 }
+ul.show {
+    top: 65px;
+}
