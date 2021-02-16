@@ -32,6 +32,7 @@ body {
     color: var(--naramari-crayola);
     padding: 8px;
     display: block;
+    transition: all 0.4s linear;
 }
 .header-area .main-menu .navbar .nav-link:hover {
     background-color: #345ba5;
