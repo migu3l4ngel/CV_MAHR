@@ -36,6 +36,7 @@ body {
     padding: 8px;
     display: block;
     transition: all 0.4s linear;
+    margin-right: 1.5rem;
 }
 .header-area .main-menu .navbar .nav-link:hover {
     background-color: #345ba5;
@@ -51,6 +52,13 @@ body {
 }
 .header-area .main-menu .navbar .fas {
     color: var(--naramari-crayola);
+}
+.fas {
+    transition: all 400ms ease-out;
+    margin-left: 1rem;
+}
+.fas:hover {
+    transform: scale(1.1);
 }
 /*
 *******************************************
