@@ -35,16 +35,16 @@ body {
     color: var(--naramari-crayola);
     padding: 8px;
     display: block;
-    transition: all 0.4s linear;
+    transition: all 0.4s ease-out;
     margin-right: 1.5rem;
 }
 .header-area .main-menu .navbar .nav-link:hover {
-    background-color: #345ba5;
+    background-color: #ffffff;
     font-style: bold;
-    transition: 0.4s;
-    border-bottom: 1px solid var(--naramari-crayola);
+    color: var(--indigo-dye);
     border-bottom-right-radius: 8px;
     border-top-left-radius: 8px;
+    transform: scale(1.1);
     
 }
 .header-area .main-menu .navbar > i {
@@ -118,6 +118,12 @@ body {
     size: 40px;
     color: var(--indigo-dye);
 }
+ul.list-inline-item a i {
+    transition: all 400ms ease-out;
+}
+ul.list-inline-item a i:hover {
+    transform: scale(1.1);
+}
 /*
 *******************************************
 ***            SKILLS SECTION           ***
@@ -187,7 +193,7 @@ h4, h3 {
 ***          BTN MENU DROPDOWN          ***
 *******************************************
 */
-.btn-menu {
+.btn-menu, .btn-exit {
     cursor: pointer;
     display: none;
 }
