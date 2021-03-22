@@ -22,6 +22,9 @@
         height: 65px;
     }
     .btn-menu {
+        display: inline-block;
+    }
+    button .btn {
         display: inline;
     }
     .nav {
