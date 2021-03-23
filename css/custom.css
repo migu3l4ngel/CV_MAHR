@@ -53,6 +53,9 @@ body {
 .header-area .main-menu .navbar .fas {
     color: var(--naramari-crayola);
 }
+.header-area .main-menu .navbar .container .download .fas {
+    color: #ffffff;
+}
 .fas {
     transition: all 400ms ease-out;
     margin-left: 1rem;
