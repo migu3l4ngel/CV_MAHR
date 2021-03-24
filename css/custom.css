@@ -61,7 +61,7 @@ body {
     margin-left: 1rem;
 }
 .fas:hover {
-    transform: scale(1.1);
+    transform: scale(1.2);
 }
 /*
 *******************************************
@@ -123,6 +123,7 @@ body {
 }
 ul.list-inline-item a i {
     transition: all 400ms ease-out;
+    animation: pulse-down 1.25s ease-in-out infinite;
 }
 ul.list-inline-item a i:hover {
     transform: scale(1.1);
@@ -202,4 +203,19 @@ h4, h3 {
 }
 ul.show {
     top: 65px;
+}
+/*
+*******************************************
+***        FLOATING BTN DOWNLOAD        ***
+*******************************************
+*/
+.floating-box > .fas {
+    background: var(--indigo-dye);
+    padding: 15px;
+    bottom: 20px;
+    right: 20px;
+    color: #fff;
+    text-align: center;
+    border-radius: 50%;
+    position: fixed;
 }
