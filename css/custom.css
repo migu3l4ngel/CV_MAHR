@@ -216,9 +216,42 @@ ul.show {
     bottom: 20px;
     right: 20px;
     color: #fff;
+    font-size: 20px;
     justify-content: center;
     border-radius: 50%;
     position: fixed;
     box-shadow: 0 3px 15px rgba(0, 0, 0, 0.7);
-    animation: pulse infinite;
+}
+.img-container {
+    animation-duration: 3s;
+    animation-name: slidein;
+  }
+  
+  @keyframes slidein {
+    from {
+      margin-left: 80%;
+      width: 100%;
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
+
+.text-container {
+    animation-duration: 3s;
+    animation-name: slidein;
+  }
+  
+  @keyframes slidein {
+    from {
+      margin-left: 80%;
+      width: 100%;
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
 }
