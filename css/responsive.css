@@ -8,8 +8,9 @@
         border-bottom: 1px solid var(--naramari-crayola);
         border-bottom-right-radius: 50%;
         border-top-left-radius: 0;
-        background: #0d3b6694;
+        background: rgba(13, 59, 102, 0.8);
         transition: 0.7s;
+        color: #ffffff;
     }
     .sect-porfolio .container .head-content .sect-title {
         padding-top: 70px;
@@ -38,7 +39,7 @@
         flex-direction: column;
     }
     .nav li {
-        margin: 30px 0 0 0;
+        margin: 0 0 0 0;
         line-height: 30px;
     }
 }
