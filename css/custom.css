@@ -210,12 +210,15 @@ ul.show {
 *******************************************
 */
 .floating-box > .fas {
+    display: block;
     background: var(--indigo-dye);
     padding: 15px;
     bottom: 20px;
     right: 20px;
     color: #fff;
-    text-align: center;
+    justify-content: center;
     border-radius: 50%;
     position: fixed;
+    box-shadow: 0 3px 15px rgba(0, 0, 0, 0.7);
+    animation: pulse infinite;
 }
