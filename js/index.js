@@ -3,7 +3,8 @@ window.sr = ScrollReveal();
     sr.reveal('.navbar', {
         duration: 3000,
         origin: 'bottom',
-        distance: '-100px'
+        distance: '-90px',
+        reset: false
     });
     sr.reveal('.img-container', {
         duration: 3000,
@@ -28,4 +29,8 @@ window.sr = ScrollReveal();
         distance: '-100px',
         reset: true
     })
-    
+    sr.reveal('.floating-box', { 
+        duration: 3000,
+        easing: 'ease-in-out'
+        
+    })
