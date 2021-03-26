@@ -2,8 +2,11 @@ window.sr = ScrollReveal();
 
     sr.reveal('.navbar', {
         duration: 3000,
-        origin: 'bottom',
-        distance: '-90px',
+        rotate: {
+            x: 1,
+            y: -180,
+            z: 0
+        },
         reset: false
     });
     sr.reveal('.img-container', {
