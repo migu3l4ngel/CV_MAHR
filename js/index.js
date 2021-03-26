@@ -2,20 +2,16 @@ window.sr = ScrollReveal();
 
     sr.reveal('.navbar', {
         duration: 3000,
-        rotate: {
-            x: 1,
-            y: -180,
-            z: 0
-        },
+        easing: 'ease',
         reset: false
     });
     sr.reveal('.img-container', {
-        duration: 3000,
+        duration: 2000,
         easing: 'ease-in',
         reset: true
     })
     sr.reveal('.text-container', {
-        duration: 3000,
+        duration: 4000,
         origin: 'left',
         distance: '-100px',
         reset: true
@@ -34,6 +30,6 @@ window.sr = ScrollReveal();
     })
     sr.reveal('.floating-box', { 
         duration: 3000,
-        easing: 'ease-in-out'
+        easing: 'ease'
         
     })
