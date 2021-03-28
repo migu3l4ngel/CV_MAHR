@@ -1,10 +1,5 @@
 window.sr = ScrollReveal();
 
-    sr.reveal('.navbar', {
-        duration: 3000,
-        easing: 'ease',
-        reset: false
-    });
     sr.reveal('.img-container', {
         duration: 2000,
         easing: 'ease-in',
@@ -30,6 +25,5 @@ window.sr = ScrollReveal();
     })
     sr.reveal('.floating-box', { 
         duration: 3000,
-        easing: 'ease'
-        
+        easing: 'ease' 
     })
