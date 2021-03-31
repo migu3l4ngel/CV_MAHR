@@ -213,8 +213,8 @@ ul.show {
     display: block;
     background: var(--indigo-dye);
     padding: 15px;
-    bottom: 20px;
-    right: 20px;
+    bottom: 30px;
+    right: 30px;
     color: #fff;
     font-size: 20px;
     justify-content: center;
